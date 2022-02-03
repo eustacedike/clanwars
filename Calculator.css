@@ -1,0 +1,118 @@
+.number-key {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 4000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 1px 1px 1px black;
+			color: white;
+    background-color: green;
+    border-color: white;
+			height: 80px;
+            width: 85px;
+}
+
+.Equations button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 4000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 1px 1px 1px black;
+			color: white;
+    background-color: orange;
+    border-color: white;
+			height: 50px;
+			width: 120px;
+}
+.Equations button:hover {
+    box-shadow: 0px 10px 50px red;} 
+
+.number-key:hover {
+    box-shadow: 0px 10px 50px #70ec70; 
+}
+
+.Calculator {background-color: black;
+height: 500px;
+width: 505px;
+border: 2px solid black;
+display: flex;
+overflow: hidden;
+flex-wrap: wrap;
+border-radius: 5px;
+}
+
+.Equations {
+    display:flex;
+    border: 1px solid transparent;
+    padding: 0px;
+    flex-wrap: wrap;
+			justify-content: space-around;
+			height: 400px;
+			width: 150px;
+            overflow: hidden;
+    background-color: brown;
+    align-items: center;
+}
+
+.numbers {
+    display:flex;
+    border: 1px solid white;
+    padding: 0px;
+    flex-wrap: wrap;
+			justify-content: space-around;
+			height: 400px;
+			width: 350px;
+			overflow: hidden;
+            white-space: no-wrap;
+            background-color: burlywood;
+}
+
+.numbers div {
+display: flex;
+height: 130px;
+width: 340px;
+align-items: center;
+overflow: hidden;
+white-space: no-wrap;
+
+}
+
+.display {
+background-color: black;
+color: white;
+border: 2px solid white;
+height: 100px;
+width: 505px;
+overflow:hidden;
+white-space: no-wrap;
+font-size: 130%;
+}
